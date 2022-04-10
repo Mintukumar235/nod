@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta mane " viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+
+    <title> register</title>
+
+</head>
+<body bgcolor="blue">
+    {{>navbar}}
+    <h1> welcome on  Register page </h1>
+    <br>
+    <br>
+    <form action="/register" method="POST">
+        <label>FIRST NAME </label>
+        <input type="text" name="firstname" size="15" /><br><br>
+        <label>LAST NAME </label>
+        <input type="text" name="lastname" size="15" /><br><br>
+        <label>GENDER</label>
+        <input type="radio" name="gender"/> MALE<br>
+        <input type="radio" name="gender"/> FEMALE<br>
+        <input type="radio" name="gender"/>OTHER <br>
+        <label>PHONE:</label>
+        <input type="number" name="phone" size="10" /><BR><br>
+        <label>EMAIL:</label>
+        <input type="email" id="email" name="email" /><BR><br>
+        <label>Password:</label>
+        <input type="password" id="pass" name="password" size="10" /><BR><br>
+        <label>RE-Password:</label>
+        <input type="password" id="repass" name="repassword" size="10" /><BR><br>
+        <input type="submit"  class="btnRegister" value="Register" /><br><br>
+        <input type="reset" />
+    
+
+
+
+
+    </form>
+
+
+</body>
+</html>
